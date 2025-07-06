@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1>Welcome to our Weather Website!</h1>
+    <div class="cont">
+        <div class="search-box">
+            <i class='bx bxs-map' ></i>
+            <input type="text" placeholder="Enter Your Location...">
+            <button class='bx bx-search-alt-2' ></button>
+        </div>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info">
+                    <div class="weather">
+                        <img src="assets/cloudy.webp" alt="img">
+                        <p class="temp">16°C</p>
+                        <p class="desc">broken clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="more-weather">
+            <div class="humidity">
+                <i class="bx bx-water"></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>10%</span>
+                    </div>
+                    <p>humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="bx bx-wind"></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>10 km/h</span>
+                    </div>
+                    <p>wind speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="not-found">
+            <div class="box">
+                <img src="assets/sunny.png" alt="not-found">
+                <p>Sorry, Location requested is Not Found in our server.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
